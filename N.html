@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatibl" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nikhil's Portfolio</title>
+<style>
+*{
+  margin:0px;
+  padding:0px;
+}
+
+body{
+  background-color:black;
+  color:white;
+}
+
+nav{
+  display:flex;
+  justify-content:space-between;
+  align-items:center; 
+  height:8vh;
+  width:100%;
+  background-color:rgb(10 4 80);
+}
+
+#navul{
+  display:flex;
+  justify-content:space-around; 
+}
+
+.navli{
+  list-style:none;
+ /* background-color:pink;*/
+  margin:0px 5px;
+}
+
+.navlinks{
+  text-decoration:none;
+  color:white;
+ /* background-color:pink; */
+  
+}
+
+a:hover{
+  color:violet;
+  font-size:1.4rem;
+}
+
+#navleft{
+  font-size:30px;
+  margin:0px 0px 0px 10px;
+}
+
+#sectionone{
+  width:100%;
+  height:100%;
+  display:flex;
+  justify-content:space-around;
+}
+
+.rightsection{
+  width:50%;
+  height:auto;
+  display:flex;
+  justify-content:center;
+  align-content:flex-start;
+/*  background-color:red;   */   
+  flex-wrap:wrap;
+}
+  
+.leftsection{
+  width:10%;
+  display:flex;
+  justify-content:center;
+ /* background-color:green;  */
+  border:2px solid white;
+  border-radius:55% ;
+  align-items:center;
+  margin:2% 25% 0% 10%;
+}
+
+
+#summary{
+  margin:2% 20%;
+  font-size:200%;
+  align-items:center;
+}
+
+#name{
+  color: yellow;
+}
+
+hr{
+  color:white;
+  width:100%;
+  margin:5% 0px 0px 0px;
+  
+  
+}
+
+#sectiontwo{
+    width:100%;
+ /* height:60vh; */
+ /* background-color:red; */
+}
+
+.program{
+   width:70%;
+   margin:0px 0px 0px 10%;
+}
+
+.edoutblock{
+  width:100%;
+ /* background-color:blue; */
+  display:flex;
+}
+
+.degblock{
+  width:100px;
+/*  background-color:pink; */
+  font-size:100%;
+ 
+}
+
+.edname{
+  margin:5px 0px;
+}
+
+.edul{
+  width:200px;
+  margin:0px 90px;
+  
+}
+  
+h1{
+  font-size:2rem;
+  margin:4% 0px 20px 0px;
+  
+}
+
+.box{
+  display:flex;
+  justify-content:space-between;
+}
+
+#boxhr{
+  height:1px;
+  background-color:white;
+}
+
+.vr{
+  height:100px;
+  width:1px;
+  background-color:white;
+}
+
+.level{
+  margin:0px 5px;
+}
+
+#intern{
+  display:flex;
+  justify-content:flex-start; 
+}
+
+.programs{
+  width:70%;
+  margin:0px 50px 0px 0px;
+}
+
+.frst{
+  width:100%;
+  display:flex;
+  justify-content:space-around; 
+  margin:0px 15% 0px 0px;
+  
+}
+
+.srv{
+  height:60px;
+  width:1px;
+  background-color:white; 
+  margin:0px 5vh;
+  
+}
+
+.a{
+  width:70%;
+  height:80%;
+  display:flex;
+  justify-content:center; 
+  font-size:150%;
+  padding:0px 10% 0px 0%;
+}
+
+.a:hover{
+  font-size:1.5rem;
+  color:rgb(100 40 220);
+}
+
+#sectionfive{
+  width:100%;
+/* background-color:pink; */
+  display:flex;
+  justify-content:space-around;
+}
+
+.rewards{
+  width:50%;
+  height:30vh;
+/* background-color:yellow; */
+  margin:2% 2% 0px 4%;
+}
+
+.rname{
+  margin:10px 10px;
+  font-size:130%;
+}
+
+
+.rwdimg{
+  width:50%;
+ /* background-color:red; */
+  display:flex;
+  justify-content:center;
+  
+}
+
+
+button{
+  background-color:black;
+  color: white;
+  border:2px solid blue;
+}
+
+button:hover{
+  font-size:1.3rem;
+ 
+}
+
+.end{
+  display:flex;
+  justify-content:space-between;
+  align-items:center; 
+  height:60px;
+  width:100%;
+  background-color:rgb(10 4 80);
+}
+
+.footli{ 
+  margin:0px 5px;
+  list-style:none;
+}
+
+.footlinks{
+  text-decoration:none;
+  color:white;
+  
+}
+</style>
+</head>
+<body>
+     <header>
+        <nav>
+             <div id="navleft" >Nikhil Agarwal</div>
+             <div id="navright" >
+                   <ul id="navul" >
+                      <li class="navli" ><a class="navlinks" href="/" >Home</a></li>
+                      <li class="navli" ><a class="navlinks" href="/" >About</a></li>
+                      <li class="navli" ><a class="navlinks" href="/" >Contact me</a></li>
+                   </ul>
+             </div>
+         </nav>
+     </header>   
+     <main>
+        <section id="sectionone"> 
+             <div class="leftsection" ><img id="myimage" src="Nikhil.JPG" alt="Nikhil's Image" ></div>
+             <div class="rightsection" ><h2>Objective</h2>
+             <div id="summary">Hi,I am <span id="name" >Nikhil Agarwal</span>, looking for a entery-level job in a reputed organization</div>
+             </div>
+             </div>
+         </section><hr><br>
+         
+         <section id="sectiontwo" >
+         
+             <div><h1>Education</h1></div>
+               <div class="edoutblock" >    
+                 <div class="degblock" >
+                   <p class="edname" >Class X</p>
+             
+                       <div class=eddetail" > 
+                           <ul class="edul" >
+                                <li>Score - 84.17% </li>
+                                <li>Bansal International School</li>
+                                <li>RBSE</li>
+                                <li>2017</li>
+                  
+                       </div><br>
+                       
+                  <div class="degblock" >
+                   <p class="edname" >Class Xii</p>
+             
+                       <div class=eddetail" > 
+                           <ul class="edul" >
+                                <li>Score - 85.20% </li>
+                                <li>Bansal International School</li>
+                                <li>RBSE</li>
+                                <li>2019</li>
+                  
+                       </div><br>
+                  <div class="degblock" >
+                   <p class="edname" >B.Tech </p>
+             
+                       <div class=eddetail" > 
+                           <ul class="edul" >
+                                <li>Branch - Electronics And Communication</li>
+                                <li>Score - 8.49 CGPA (upto 5th sem)</li>
+                                <li>Jaipur Engineering College And Research Centre </li>
+                                <li>RTU Kota</li>
+                                <li>2024</li>
+                                                  
+                       </div>
+               </div>
+        
+        
+        </section><hr><br>
+        
+        <section id="sectionthree" >
+             
+               <div id="intern"> <h1>Internships/Trainings</h1></div>
+               
+                  <hr class="programs"  >
+                    <div class="frst" >
+                      <div>
+                      <div class="srv" ></div>
+                      <p class="a" ><span>Web Development Internship at Bharat Intern</span></p>
+                      </div>
+                  
+                       <div>
+                       <div class="srv" ></div>
+      
+                      <p class="a" ><span>Python-Django Summer Training  from  Regex Software Services</span></p>
+                      </div>
+                      
+                       <div>
+                       <div class="srv" ></div>
+                       <p class="a" ><span>Web Development Internship at  Bazarpur Services LLP</span></p>
+                       </div>
+                    </div>
+                       
+         
+         </section><hr><br>
+         
+         <section id="sectionfour" >
+             
+               <div id="Projects"> <h1>Projects</h1></div>
+               
+                  <hr class="programs"  >
+                     <div class="frst" >
+                       <div>
+                        <div class="srv" ></div>
+                        <p class="a" >Bookshop Management Projec - Design Using C++, It kees record of Books.</li></ul>
+                       </div>
+                                 
+                       <div>
+                       <div class="srv" ></div>
+                      <p class="a" >Portfolio Project - Design Using HTML,CSS, JavaScript.</p>
+                      </div>
+                      
+                       <div>
+                       <div class="srv" ></div>
+                       <p class="a" > Temperature Converter - Design Using HTML,CSS, JavaScript. </p>
+                       </div>
+                    </div>
+         
+         </section><hr><br>
+         
+         
+                      <div> 
+                         <h1 id="secforhd">Rewards And Achievements</h1>
+                      </div>   
+         <section id="sectionfive">
+                      
+                      <div class="rewards">
+                       <ul>
+                         <li class="rname" >AMCAT Test</li>
+                         <li class="rname" >Online Workshops on Emotional Stability</li>
+                       </ul>
+                      </div> 
+
+                      <div class="rwdimg" > <h2><img src="Rewards.JPG" alt="Reward Image" /> </h2>
+                      </div>
+          </section>
+           
+          <div id="cv" > <a href=" " ><button id="Download">Download CV </button></div>
+       </main> 
+        
+       <footer class="end" >
+         <ul >
+           <li class="footli" >e-mail : <a class="footlinks" href=" " >nikhillagarwal1416@gmail.com</li>   
+           <li class="footli" >LinkedIn : <a class="footlinks" href=" " ><img src=" " alt=" " /></li>
+             
+         </ul>      
+       </footer>
+         
+</body>          
+</html>
